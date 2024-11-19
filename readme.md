@@ -11,16 +11,6 @@ A responsive web-based quiz application with a timer, score tracking, and immedi
 - Final score calculation with percentage
 - Easily customizable questions via JSON
 
-## File Structure
-
-```
-quiz-game/
-├── index.html        # Main HTML structure
-├── styles.css        # CSS styling and responsive design
-├── script.js         # Game logic and functionality
-├── questions.json    # Quiz questions data
-└── README.md         # Documentation
-```
 
 ## Setup and Running
 
@@ -30,26 +20,18 @@ quiz-game/
 
 ### Running the Application
 
-1. **Using Python (Python 3)**
-   ```bash
-   python -m http.server
-   ```
-   Then open `http://localhost:8000` in your browser
-
-2. **Using Node.js**
+1. **Using Node.js**
    ```bash
    npx serve
    ```
    Then open the URL shown in the terminal
 
-3. **Using VS Code**
+2. **Using VS Code**
    - Install the "Live Server" extension
-   - Right-click on `index.html`
+   - Right-click on `quiz.html`
    - Select "Open with Live Server"
 
-4. **Using XAMPP/WAMP/MAMP**
-   - Place the files in your web server directory
-   - Access through your local server URL
+
 
 ### Customizing Questions
 

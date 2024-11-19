@@ -2,6 +2,9 @@
 
 A responsive web-based quiz application with a timer, score tracking, and immediate feedback. The quiz loads questions from a JSON file.
 
+# Vercel Link
+`https://quiz-game-zeta-flame.vercel.app/quiz.html`
+
 ## Features
 
 -  30-second countdown timer per question
